@@ -9,7 +9,7 @@ const ProductDetail = () => {
   const { id } = useParams();
   const getProductDetail = async () => {
     setLoading(true);
-    let url = `https://my-json-server.typicode.com/legobitna/hnm-react-router/products/${id}`;
+    let url = `https://my-json-server.typicode.com/whynottttttt/hnm-react-router-practice1/products/${id}`;
     let response = await fetch(url);
     let data = await response.json();
     setLoading(false);
